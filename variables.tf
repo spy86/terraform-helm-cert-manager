@@ -23,7 +23,7 @@ variable "cert_manager_chart" {
 variable "cert_manager_version" {
   description = "Specify the exact chart version to install. If this is not specified, the latest version is installed."
   type = string
-  default = "v1.0.8"
+  default = "v1.8.0"
 }
 variable "cert_manager_namespace" {
   description = "The namespace to install the release into. Defaults to default."
