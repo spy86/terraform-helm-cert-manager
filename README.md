@@ -31,7 +31,7 @@ No modules.
 | <a name="input_cert_manager_name"></a> [cert\_manager\_name](#input\_cert\_manager\_name) | Release name. | `string` | `"certmgr"` | no |
 | <a name="input_cert_manager_namespace"></a> [cert\_manager\_namespace](#input\_cert\_manager\_namespace) | The namespace to install the release into. Defaults to default. | `string` | `"ingress-nginx"` | no |
 | <a name="input_cert_manager_repository"></a> [cert\_manager\_repository](#input\_cert\_manager\_repository) | Repository URL where to locate the requested chart. | `string` | `"https://charts.jetstack.io"` | no |
-| <a name="input_cert_manager_version"></a> [cert\_manager\_version](#input\_cert\_manager\_version) | Specify the exact chart version to install. If this is not specified, the latest version is installed. | `string` | `"v1.0.8"` | no |
+| <a name="input_cert_manager_version"></a> [cert\_manager\_version](#input\_cert\_manager\_version) | Specify the exact chart version to install. If this is not specified, the latest version is installed. | `string` | `"v1.8.0"` | no |
 | <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | The name of the Managed Kubernetes Cluster to create. Changing this forces a new resource to be created. | `string` | n/a | yes |
 | <a name="input_installCRDs"></a> [installCRDs](#input\_installCRDs) | The number of replicas of CRD resources. | `bool` | `true` | no |
 

@@ -10,4 +10,10 @@ resource "helm_release" "nginx_ingress" {
     name  = "installCRDs"
     value = "${var.installCRDs}"
   }
+
+  lifecycle {
+    ignore_changes = [
+      set,
+    ]
+  }
 }
